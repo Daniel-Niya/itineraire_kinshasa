@@ -58,7 +58,7 @@ LANDMARKS = {
     "Rond-point Victoire": {
         "lat": -4.340787, 
         "lon": 15.313731,
-        "image": get_landmark_image("Rond-point Victoire", "/Users/mac/Downloads/conduite/Project/static/uploads/victoire.webp"),
+        "image": get_landmark_image("Rond-point Victoire", "/static/uploads/victoire.webp"),
         "description": "Point central de Kinshasa, lieu de rassemblement important"
     },
     "Gare Centrale": { 
