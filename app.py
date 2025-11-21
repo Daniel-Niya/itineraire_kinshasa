@@ -65,61 +65,61 @@ LANDMARKS = {
     "Rond-point Victoire": {
         "lat": -4.340787, 
         "lon": 15.313731,
-        "image": get_landmark_image("Rond-point Victoire", "victoire.webp"),
+        "image": get_landmark_image("Rond-point Victoire", "static/uploads/victoire.webp"),
         "description": "Point central de Kinshasa, lieu de rassemblement important"
     },
     "Gare Centrale": { 
         "lat": -4.301203, 
         "lon": 15.317859,
-        "image": get_landmark_image("Gare Centrale", "gare.jpg"),
+        "image": get_landmark_image("Gare Centrale", "static/uploads/gare.jpg"),
         "description": "Principale gare routière et ferroviaire de Kinshasa"
     }, 
     "Gombe": {
         "lat": -4.30306, 
         "lon": 15.30333,
-        "image": get_landmark_image("Gombe", "Gombe.jpeg"),
+        "image": get_landmark_image("Gombe", "static/uploads/Gombe.jpeg"),
         "description": "Quartier administratif et commercial"
     },
     "Lingwala": {
         "lat": -4.325425071279868,
         "lon": 15.296128605102115,
-        "image": get_landmark_image("Lingwala", "lingwala.png"),
+        "image": get_landmark_image("Lingwala", "static/uploads/lingwala.png"),
         "description": "Quartier résidentiel et commercial animé"
     },
     "Kasa-Vubu": {
         "lat": -4.34250, 
         "lon": 15.30528,
-        "image": get_landmark_image("Kasavubu", "KASAVUBU.jpeg"),
+        "image": get_landmark_image("Kasavubu", "static/uploads/KASAVUBU.jpeg"),
         "description": "Commune populaire au cœur de Kinshasa"
     },
     "Matonge": {
         "lat": -4.34022, 
         "lon": 15.31599,
-        "image": get_landmark_image("Matonge", "matonge.png"),
+        "image": get_landmark_image("Matonge", "static/uploads/matonge.png"),
         "description": "Quartier culturel et commercial réputé"
     },
     "Barumbu": {
         "lat": -4.31694, 
         "lon": 15.32778,
-        "image": get_landmark_image("Barumbu", "ndolo.jpeg"),
+        "image": get_landmark_image("Barumbu", "static/uploads/ndolo.jpeg"),
         "description": "Commune historique près du fleuve Congo"
     },
     "Ngaliema": {
         "lat": -4.37247, 
         "lon": 15.25459,
-        "image": get_landmark_image("Ngaliema", "ngaliema.webp"),
+        "image": get_landmark_image("Ngaliema", "static/uploads/ngaliema.webp"),
         "description": "Quartier résidentiel huppé avec vue sur le fleuve"
     },
     "Lemba": {
         "lat": -4.39611, 
         "lon": 15.31917,
-        "image": get_landmark_image("Lemba", "lemba.jpeg"),
+        "image": get_landmark_image("Lemba", "static/uploads/lemba.jpeg"),
         "description": "Quartier universitaire et résidentiel"
     },
     "Limete": {
         "lat": -4.37439, 
         "lon": 15.34542,
-        "image": get_landmark_image("Limete", "limete.jpeg"),
+        "image": get_landmark_image("Limete", "static/uploads/limete.jpeg"),
         "description": "Zone industrielle et résidentielle importante"
     }
 }
@@ -128,109 +128,110 @@ POINTS_OF_INTEREST = {
     "Marché Central": {
         "lat": -4.3070,
         "lon": 15.3120,
-        "image": get_landmark_image("Marché Central", "marche_central.jpeg"),
+        "image": get_landmark_image("Marché Central", "static/uploads/marche_central.jpeg"),
         "type": "commerce",
         "description": "Grand marché situé sur un axe commercial proche de Gombe/Victoire"
     },
     "Stade des Martyrs": {
         "lat": -4.3278,
         "lon": 15.3149,
-        "image": get_landmark_image("Stade des Martyrs", "stade_martyrs.jpeg"),
+        "image": get_landmark_image("Stade des Martyrs", "static/uploads/stade_martyrs.jpeg"),
         "type": "sport",
         "description": "Stade national situé le long d'un grand boulevard"
     },
     "Université de Kinshasa": {
         "lat": -4.4120,
         "lon": 15.3050,
-        "image": get_landmark_image("Université de Kinshasa", "unikin.jpeg"),
+        "image": get_landmark_image("Université de Kinshasa", "static/uploads/unikin.jpeg"),
         "type": "éducation",
         "description": "Campus universitaire à Lemba, accessible par la route principale"
     },
     "Place de la Gare": {
         "lat": -4.30125,
         "lon": 15.31800,
-        "image": get_landmark_image("Place de la Gare", "place_gare.jpeg"),
+        "image": get_landmark_image("Place de la Gare", "static/uploads/place_gare.jpeg"),
         "type": "transport",
         "description": "Place immédiatement devant la Gare Centrale"
     },
     "Hôpital Général": {
         "lat": -4.3145,
         "lon": 15.2920,
-        "image": get_landmark_image("Hôpital Général", "images.jpeg"),
+        "image": get_landmark_image("Hôpital Général", "static/uploads/images.jpeg"),
         "type": "santé",
         "description": "Hôpital principal sur un axe médical bien desservi"
     },
     "Tour de l'Échangeur": {
         "lat": -4.3245,
         "lon": 15.3048,
-        "image": get_landmark_image("Tour de l'Échangeur", "limete.jpeg"),
+        "image": get_landmark_image("Tour de l'Échangeur", "static/uploads/limete.jpeg"),
         "type": "infrastructure",
         "description": "Intersection / échangeur important sur le réseau routier"
     },
     "Palais du Peuple": {
         "lat": -4.3198,
         "lon": 15.3152,
-        "image": get_landmark_image("Palais du Peuple", "palais-du-peuple.jpg"),
+        "image": get_landmark_image("Palais du Peuple", "static/uploads/palais-du-peuple.jpg"),
         "type": "gouvernement",
         "description": "Siège du parlement, situé en zone administrative"
     },
     "Ambassade de France": {
         "lat": -4.3079,
         "lon": 15.2751,
-        "image": get_landmark_image("Ambassade de France", "ambassade_de_france.jpeg"),
+        "image": get_landmark_image("Ambassade de France", "static/uploads/ambassade_de_france.jpeg"),
         "type": "diplomatie",
         "description": "Représentation diplomatique sur un axe sécurisé"
     },
     "Aéroport de Ndjili": {
         "lat": -4.3850,
         "lon": 15.4448,
-        "image": get_landmark_image("Aéroport de Ndjili", "ndjili.jpeg"),
+        "image": get_landmark_image("Aéroport de Ndjili", "static/uploads/ndjili.jpeg"),
         "type": "transport",
         "description": "Aéroport international, connecté via la route d'accès principale"
     },
     "Pont Maréchal": {
         "lat": -4.3005,
         "lon": 15.2945,
-        "image": get_landmark_image("Pont Maréchal", "pont_marechal.jpeg"),
+        "image": get_landmark_image("Pont Maréchal", "static/uploads/pont_marechal.jpeg"),
         "type": "infrastructure",
         "description": "Pont sur le fleuve/local, positionné sur un axe routier stratégique"
     },
     "Stade Tata Raphaël": {
         "lat": -4.3385,
         "lon": 15.2810,
-        "image": get_landmark_image("Stade Tata Raphaël", "matonge.png"),
+        "image": get_landmark_image("Stade Tata Raphaël", "static/uploads/matonge.png"),
         "type": "sport",
         "description": "Stade historique accessible depuis les grands boulevards"
     },
     "Musée National": {
         "lat": -4.3183,
         "lon": 15.2982,
-        "image": get_landmark_image("Musée National", "musee_national.jpeg"),
+        "image": get_landmark_image("Musée National", "static/uploads/musee_national.jpeg"),
         "type": "culture",
         "description": "Musée situé proche d'axes piétonniers et routiers principaux"
     },
     "Jardin Botanique": {
         "lat": -4.3495,
         "lon": 15.2952,
-        "image": get_landmark_image("Jardin Botanique", "jardin.jpeg"),
+        "image": get_landmark_image("Jardin Botanique", "static/uploads/jardin.jpeg"),
         "type": "nature",
         "description": "Espace vert en périphérie, accessible par une route secondaire connectée"
     },
     "Grand Hôtel Kinshasa": {
         "lat": -4.3021,
         "lon": 15.3022,
-        "image": get_landmark_image("Grand Hôtel Kinshasa", "grand_hotel.jpeg"),
+        "image": get_landmark_image("Grand Hôtel Kinshasa", "static/uploads/grand_hotel.jpeg"),
         "type": "hôtellerie",
         "description": "Hôtel situé sur un axe hôtelier près du centre"
     },
     "Centre Commercial": {
         "lat": -4.3075,
         "lon": 15.3048,
-        "image": get_landmark_image("Centre Commercial", "commercial.jpeg"),
+        "image": get_landmark_image("Centre Commercial", "static/uploads/commercial.jpeg"),
         "type": "commerce",
         "description": "Grand centre commercial sur un boulevard principal"
     }
 }
+
 
 OSRM_BASE = "https://router.project-osrm.org"
 
