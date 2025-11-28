@@ -2,7 +2,7 @@ Kinshasa Itinéraires - Guide d'utilisation
 
 ## Description du Projet
 
-Kinshasa Itinéraires** est une application web intelligente de planification de trajets développée spécifiquement pour la ville de Kinshasa, République Démocratique du Congo. Cette plateforme permet aux utilisateurs de trouver les meilleurs itinéraires entre différents points de repère de la ville avec jusqu'à 5 alternatives différentes.
+**Kinshasa Itinéraires** est une application web intelligente de planification de trajets développée spécifiquement pour la ville de Kinshasa, République Démocratique du Congo. Cette plateforme permet aux utilisateurs de trouver les meilleurs itinéraires entre différents points de repère de la ville avec jusqu'à 5 alternatives différentes.
 
 # Objectifs du Projet
 
@@ -233,7 +233,7 @@ Ce projet est sous licence BSD - voir le fichier LICENSE pour plus de détails.
 - Unsplash pour les images de qualité
 - La communauté Kinshasa** pour les retours et suggestions
 - URKIM LINGWALA notre établissement 
-- ASS. KADIMA DONATIEN pour son soutien technique 
+- Doctorant KADIMA DONATIEN pour son soutien technique 
 
 ---
 
